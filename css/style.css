@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap%27%27');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#class{
+    overflow: hidden;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+input, button {
+    box-shadow: none;
+    outline: none;
+}
+
+/* header content */
+.logo_image{
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    left: 650px;
+    top: 5px;
+}
+.nav-item{
+    padding-inline: 18px;
+    color: white;
+}
+
+.nav-item:hover{
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 9px;
+}
+.search{
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    margin-left: 800px;
+}
+.page_navbar{
+    margin-top: 60px;
+}
+.icon{
+    margin-left: -180px;
+}
+.main_content{
+    background-image: url('https://images.pexels.com/photos/5098287/pexels-photo-5098287.jpeg?auto=compress&cs=tinysrgb&w=600');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sub_content1{
+    background-color: rgb(152, 101, 6);
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 40px;
+}
+.pg1{
+    margin: 15px 0px;
+}
+.sub_content2{
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+.pg2{
+   padding: 15px 60px;
+   margin-bottom: 20px;
+}
+.pg3{
+    margin-top: 30px;
+    /* width: 150px; */
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: white;
+    padding: 0px 20px;
+}
+.pg4{
+    font-size: 90px;
+     font-family: 'Roboto Slab', serif;
+     margin-top: -100px; 
+}
+.pg5{
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Cookie', 'cursive';
+    margin-top: -50px;
+}
+.logo_image1{
+    width:300px;
+    height: 300px;
+}
+
+/* section part-1  */
+.main_content1{
+    background-color: rgb(6, 6, 6);
+    height: 100px;
+}
+
+/* section part-2  */
+.main_content2{
+    background-color: orange;
+    height:400px;
+    text-align : center;
+    padding-top : 50px;
+    padding-bottom: 50px;
+}
+.main_name{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial; 
+}
+.main_data{
+    color: white;
+    padding: 20px 25px 20px 25px;
+    background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 14px;
+}
+
+ /* section part-3  */
+.main_content3{
+    background-image: url('../imgs/img3.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.pg6{
+    font-size: 40px;
+    text-align: center;
+}
+.sub_content3{
+    padding: 0px 50px;
+}
+.sub_content4{
+    padding: 20px 50px;
+}
+.pg7{
+    /* margin: 30px; */
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    color: rgb(2, 2, 2);
+    padding: 0px 20px;
+}
+
+.learn_more{
+    display: flex;
+    justify-content: center;
+}
